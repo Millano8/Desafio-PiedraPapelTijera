@@ -1,0 +1,2 @@
+*{margin:0}.init-juego{flex-direction:column;justify-content:center;align-items:center;display:flex}.init-juego__rotadas{justify-content:space-evenly;align-items:center;gap:15%;display:flex;transform:scaleY(-1)}.init-juego__hands{justify-content:space-evenly;align-items:center;gap:15%;display:flex;position:absolute;bottom:-30%}.piedra:hover,.papel:hover,.tijeras:hover{cursor:pointer;width:100px;height:200px}.count-down{position:absolute}
+/*# sourceMappingURL=index.83ecfc3d.css.map */

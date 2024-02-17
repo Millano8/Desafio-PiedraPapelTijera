@@ -1,0 +1,29 @@
+.init-instructions {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  display: flex;
+}
+
+.init-instructions__title {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.init-instructions__button {
+  justify-content: center;
+  align-items: center;
+  margin-top: 25%;
+}
+
+.init-instructions__hands {
+  margin-top: 45%;
+}
+
+/*# sourceMappingURL=index.d44abc8c.css.map */

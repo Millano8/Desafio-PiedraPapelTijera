@@ -1,4 +1,4 @@
-var e=globalThis,t={},n={},i=e.parcelRequire9660;null==i&&((i=function(e){if(e in t)return t[e].exports;if(e in n){var i=n[e];delete n[e];var s={id:e,exports:{}};return t[e]=s,i.call(s.exports,s,s.exports),s.exports}var r=Error("Cannot find module '"+e+"'");throw r.code="MODULE_NOT_FOUND",r}).register=function(e,t){n[e]=t},e.parcelRequire9660=i),(0,i.register)("27Lyk",function(e,t){Object.defineProperty(e.exports,"register",{get:()=>n,set:e=>n=e,enumerable:!0,configurable:!0});var n,i=new Map;n=function(e,t){for(var n=0;n<t.length-1;n+=2)i.set(t[n],{baseUrl:e,path:t[n+1]})}}),i("27Lyk").register(new URL("",import.meta.url).toString(),JSON.parse('["1LzKV","index.8907d724.js","3SBak","perdiste.dcc11aeb.png","3zD7x","ganaste.ab8c5652.png","9hK1f","Papel.a18e2c61.png","81cZK","Piedra.083177db.png","jPlI5","Tijera.a063bb16.png","6rU24","img-explosion1.eed10714.jpg"]')),customElements.define("custom-button",class extends HTMLElement{constructor(){super(),this.shadow=this.attachShadow({mode:"open"})}connectedCallback(){let e=document.createElement("style");e.innerHTML=`
+var e=globalThis,t={},n={},i=e.parcelRequire9660;null==i&&((i=function(e){if(e in t)return t[e].exports;if(e in n){var i=n[e];delete n[e];var s={id:e,exports:{}};return t[e]=s,i.call(s.exports,s,s.exports),s.exports}var r=Error("Cannot find module '"+e+"'");throw r.code="MODULE_NOT_FOUND",r}).register=function(e,t){n[e]=t},e.parcelRequire9660=i),(0,i.register)("27Lyk",function(e,t){Object.defineProperty(e.exports,"register",{get:()=>n,set:e=>n=e,enumerable:!0,configurable:!0});var n,i=new Map;n=function(e,t){for(var n=0;n<t.length-1;n+=2)i.set(t[n],{baseUrl:e,path:t[n+1]})}}),i("27Lyk").register(new URL("",import.meta.url).toString(),JSON.parse('["dZpbI","index.b4880d7e.js","3tOKg","perdiste.dcc11aeb.png","7spTd","ganaste.ab8c5652.png","l7cZy","Papel.a18e2c61.png","j9E4C","Piedra.083177db.png","hWexY","Tijera.a063bb16.png","1etes","img-explosion1.eed10714.jpg"]')),customElements.define("custom-button",class extends HTMLElement{constructor(){super(),this.shadow=this.attachShadow({mode:"open"})}connectedCallback(){let e=document.createElement("style");e.innerHTML=`
 
                 .root{
                 width: 322px;
@@ -86,13 +86,13 @@ var e=globalThis,t={},n={},i=e.parcelRequire9660;null==i&&((i=function(e){if(e i
                 </svg>
 
                 
-            `,t.querySelector(".timer__svg");let n=5,i=setInterval(()=>{--n<0?clearInterval(i):t.querySelector(".timer__number").textContent=n.toString()},1e3);this.shadow.appendChild(t)}});const c=new URL(o),p=new URL(l),m=new URL(d);customElements.define("computer-play",class extends HTMLElement{constructor(){super(),this.shadow=this.attachShadow({mode:"open"})}connectedCallback(){let e=document.createElement("style");e.innerHTML=`
+            `,t.querySelector(".timer__svg");let n=5,i=setInterval(()=>{--n<0?clearInterval(i):t.querySelector(".timer__number").textContent=n.toString()},1e3);this.shadow.appendChild(t)}});const c=new URL(o),p=new URL(l),u=new URL(d);customElements.define("computer-play",class extends HTMLElement{constructor(){super(),this.shadow=this.attachShadow({mode:"open"})}connectedCallback(){let e=document.createElement("style");e.innerHTML=`
         .root{
             heigth: 250px;
             width: 100px;
         }
     `,this.shadow.appendChild(e),this.render()}render(){let e=a.getState().currentGame.computerPlay,t=document.createElement("div");"tijeras"===e?t.innerHTML=`
-            <img src="${m}" class="root"/>
+            <img src="${u}" class="root"/>
         `:"papel"===e?t.innerHTML=`
             <img src="${c}" class="root"/>
         `:"piedra"==e&&(t.innerHTML=`
@@ -109,7 +109,7 @@ var e=globalThis,t={},n={},i=e.parcelRequire9660;null==i&&((i=function(e){if(e i
             font-size: 45px;
             text-align: center;
 
-        `,this.shadow.appendChild(e),this.render()}render(){let e=document.createElement("button");e.textContent=this.textContent,e.className="root",this.shadow.appendChild(e)}});let u="";var h={};h=new URL("img-explosion1.eed10714.jpg",import.meta.url).toString();const g="/Desafio-PiedraPapelTijera";function v(){return location.host.includes("millano8.github.io")}const _=[{path:/\/juego/,component:function(e){let t=document.createElement("div");t.className="init-juego";let n=new URL(o),i=new URL(l),s=new URL(d);t.innerHTML=`
+        `,this.shadow.appendChild(e),this.render()}render(){let e=document.createElement("button");e.textContent=this.textContent,e.className="root",this.shadow.appendChild(e)}});let m="";var h={};h=new URL("img-explosion1.eed10714.jpg",import.meta.url).toString();const g="/Desafio-PiedraPapelTijera/";function v(){return location.host.includes("github.io")}const f=[{path:/\/juego/,component:function(e){let t=document.createElement("div");t.className="init-juego";let n=new URL(o),i=new URL(l),s=new URL(d);t.innerHTML=`
         <div class="pagina-juego">
             <div class="init-juego__rotadas">
                 <div>
@@ -137,7 +137,7 @@ var e=globalThis,t={},n={},i=e.parcelRequire9660;null==i&&((i=function(e){if(e i
                 </div>
             </div>
         </div>
-    `;let r=t.querySelector(".papel"),a=t.querySelector(".piedra"),c=t.querySelector(".tijeras");r?.addEventListener("click",()=>{clearTimeout(p),u="papel",setTimeout(()=>{e.goTo("/pelea")},1e3)}),a?.addEventListener("click",()=>{clearTimeout(p),u="piedra",setTimeout(()=>{e.goTo("/pelea")},1e3)}),c?.addEventListener("click",()=>{clearTimeout(p),u="tijeras",setTimeout(()=>{e.goTo("/pelea")},1e3)});let p=setTimeout(()=>{e.goTo("/instructions")},5e3);return t}},{path:/\/instructions/,component:function(e){let t=document.createElement("div");t.className="init-instructions",t.innerHTML=`
+    `;let r=t.querySelector(".papel"),a=t.querySelector(".piedra"),c=t.querySelector(".tijeras");r?.addEventListener("click",()=>{clearTimeout(p),m="papel",setTimeout(()=>{e.goTo("/pelea")},1e3)}),a?.addEventListener("click",()=>{clearTimeout(p),m="piedra",setTimeout(()=>{e.goTo("/pelea")},1e3)}),c?.addEventListener("click",()=>{clearTimeout(p),m="tijeras",setTimeout(()=>{e.goTo("/pelea")},1e3)});let p=setTimeout(()=>{e.goTo("/instructions")},5e3);return t}},{path:/\/instructions/,component:function(e){let t=document.createElement("div");t.className="init-instructions",t.innerHTML=`
         <div class="init-instructions__title">
             <h2>Presion\xe1 jugar y elegi: piedra, papel o tijeras antes de que pasen 5 segundos</h2>
         </div>
@@ -180,7 +180,7 @@ var e=globalThis,t={},n={},i=e.parcelRequire9660;null==i&&((i=function(e){if(e i
         <div class="res-perdiste__button">
             <button-volver-jugar>Volver a jugar</button-volver-jugar>
         </div>
-    `;let n=t.querySelector("button-volver-jugar");return n?.addEventListener("click",()=>{e.goTo("/instructions")}),t}},{path:/\/pelea/,component:function(e){let t=document.createElement("div");t.className="init-pelea";let n=new URL(o),i=new URL(l),s=new URL(d),r=new URL(h),c=a.getState(),p=u;a.computerPlay(),"tijeras"==p?(a.setMove("tijeras"),t.innerHTML=`
+    `;let n=t.querySelector("button-volver-jugar");return n?.addEventListener("click",()=>{e.goTo("/instructions")}),t}},{path:/\/pelea/,component:function(e){let t=document.createElement("div");t.className="init-pelea";let n=new URL(o),i=new URL(l),s=new URL(d),r=new URL(h),c=a.getState(),p=m;a.computerPlay(),"tijeras"==p?(a.setMove("tijeras"),t.innerHTML=`
             <div class="init-pelea">
                 <div class="init-pelea__rotada">
                     <computer-play></computer-play>
@@ -217,5 +217,5 @@ var e=globalThis,t={},n={},i=e.parcelRequire9660;null==i&&((i=function(e){if(e i
                     <img src="${i}" class="init-pelea__img"/>
                 </div>
             </div>
-            `),a.whoWins(c.currentGame.myPlay,c.currentGame.computerPlay);let m=c.currentGame.resultado;return a.countPoints(m),a.getHistory(),setTimeout(()=>{"ganaste"==m?e.goTo("/resultadoGanaste"):"perdiste"==m?e.goTo("/resultadoPerdiste"):e.goTo("/juego")},3e3),t}}];!function(e){function t(e){let t=v()?g+e:e;history.pushState({},"",t),n(t)}function n(n){console.log("El handleRoute recibio una nueva ruta",n);let i=v()?n.replace(g,""):n;for(let n of _)if(n.path.test(i)){let i=n.component({goTo:t});e.firstChild&&e.firstChild.remove(),e.appendChild(i)}}"/"==location.pathname?t("/inicio"):t(location.pathname),window.onpopstate=function(){n(location.pathname)}}(document.querySelector(".root"));
-//# sourceMappingURL=index.8907d724.js.map
+            `),a.whoWins(c.currentGame.myPlay,c.currentGame.computerPlay);let u=c.currentGame.resultado;return a.countPoints(u),a.getHistory(),setTimeout(()=>{"ganaste"==u?e.goTo("/resultadoGanaste"):"perdiste"==u?e.goTo("/resultadoPerdiste"):e.goTo("/juego")},3e3),t}}];!function(e){function t(e){let t=v()?g+e:e;history.pushState({},"",t),n(t)}function n(n){console.log("El handleRoute recibio una nueva ruta",n);let i=v()?n.replace(g,""):n;for(let n of f)if(n.path.test(i)){let i=n.component({goTo:t});e.firstChild&&e.firstChild.remove(),e.appendChild(i)}}"/"==location.pathname?t("/inicio"):t(location.pathname),window.onpopstate=function(){n(location.pathname)}}(document.querySelector(".root"));
+//# sourceMappingURL=index.b4880d7e.js.map

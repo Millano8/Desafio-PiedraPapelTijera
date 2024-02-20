@@ -1,0 +1,29 @@
+.init-page{
+    margin: 0;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.init-page__title{
+    margin-top: 15%;
+    width: 100%;
+    font-weight: 600;
+    font-size: 80px;
+    color: #009048;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.init-page__button{
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.init-page__hands{
+    margin-top: 10%
+}

@@ -1,0 +1,27 @@
+.init-instructions {
+    margin: 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.init-instructions__title{
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    margin-top: 15%;
+    align-items: center;
+    justify-content: center;
+}
+
+.init-instructions__button{
+    align-items: center;
+    justify-content: center;
+    margin-top: 25%;
+}
+
+.init-instructions__hands{
+    margin-top: 45%
+}
